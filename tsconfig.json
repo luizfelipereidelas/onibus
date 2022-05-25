@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "rootDir": "./src",
+    "baseUrl": "./src",
+	  "paths": {
+			"models/*": ["./models/*"],
+      "controllers/*": ["./controllers/*"],
+      "errors/*": ["./errors/*"],
+      "middlewares/*": ["./middlewares/*"],
+      "@types/*": ["./@types/*"],
+      "repositories/*": ["./repositories/*"],
+      "routes/*": ["./routes/*"],
+      "utils/*": ["./utils/*"]
+    },
+    "outDir": "./build",
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2017",
+    "esModuleInterop": true
+  },
+  "compileOnSave": true,
+  "include": [
+    "src"
+  ]
+}
